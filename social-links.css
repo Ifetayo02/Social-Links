@@ -62,9 +62,19 @@ h1{
         margin:100px;
     }
 }
-@media (min-width:375px){
+@media (max-width:375px){
     body{
         font-size: 14px;
         padding:5px;
     }
+    .info{
+        width: 280px;
+    }
+    .info div{
+        width:220px;
+    }
+    .info div:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
 }
